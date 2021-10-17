@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+kindle-clippings-parser = {editable = true, path = "/Users/andrew/workspace/kindle-clippings-parser"}
+anki-helpers = {editable = true, path = "/Users/andrew/workspace/anki-helpers"}
+django = "*"
+django-rest-framework = "*"
+langdetect = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
