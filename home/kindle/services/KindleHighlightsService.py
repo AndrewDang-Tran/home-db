@@ -11,7 +11,7 @@ def insert_books_and_highlights(kindle_clippings: KindleClippings):
             inserted_highlight = dao_insert_highlight(inserted_book, highlight)
 
 def sync_japanese_highlights_with_anki_sentence_cards():
-    DECK_NAME = 'TestDeck'
+    DECK_NAME = 'SentenceCards'
     SYNC_TAG = 'automatedSentenceCards'
     MODEL_NAME = 'MIA Japanese'
 
